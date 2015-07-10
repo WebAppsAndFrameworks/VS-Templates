@@ -29,7 +29,7 @@
       <Folder Name="js" TargetFolderName="js">
         <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$_TemporaryKey.pfx">Application_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$_TemporaryKey.pfx">BlankTemplate_TemporaryKey.pfx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="package.appxmanifest">package.appxmanifest</ProjectItem>
     </Project>
