@@ -1,4 +1,3 @@
-﻿// Your code here!
-WinJS.UI.processAll().then(function() {
+﻿WinJS.UI.processAll().then(function() {
   //Your code here
-});
+});
