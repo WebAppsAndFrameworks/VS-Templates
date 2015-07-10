@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>HostedTemplate</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>JavaScript</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>HostedTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="HostedTemplate.jsproj" File="HostedTemplate.jsproj" ReplaceParameters="true">
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="logo.scale-100.png">logo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="smalllogo.scale-100.png">smalllogo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="splashscreen.scale-100.png">splashscreen.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="storelogo.scale-100.png">storelogo.scale-100.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$_TemporaryKey.pfx">HostedTemplate_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="package.appxmanifest">package.appxmanifest</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+  <Assembly>Microsoft.VisualStudio.WinRT.TemplateWizards, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+  <FullClassName>Microsoft.VisualStudio.WinRT.TemplateWizards.CreateProjectCertificate.Wizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
