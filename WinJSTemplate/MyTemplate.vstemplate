@@ -29,12 +29,10 @@
       <Folder Name="js" TargetFolderName="js">
         <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
       </Folder>
-      <Folder Name="lib/winjs-4.0.1" TargetFolderName="lib/winjs-4.0.1">
-        <ProjectItem ReplaceParameters="false" TargetFileName="css\ui-light.css">css\ui-light.css</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="css\ui-dark.css">css\ui-dark.css</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="js\base.js">js\base.js</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="js\ui.js">js\ui.js</ProjectItem>
-      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="lib\winjs-4.0.1\css\ui-light.css">ui-light.css</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="lib\winjs-4.0.1\css\ui-dark.css">ui-dark.css</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="lib\winjs-4.0.1\js\base.js">base.js</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="lib\winjs-4.0.1\js\ui.js">ui.js</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$_TemporaryKey.pfx">WinJSTemplate_TemporaryKey.pfx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="package.appxmanifest">package.appxmanifest</ProjectItem>
