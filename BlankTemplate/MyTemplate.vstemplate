@@ -27,7 +27,7 @@
         <ProjectItem ReplaceParameters="false" TargetFileName="storelogo.scale-100.png">storelogo.scale-100.png</ProjectItem>
       </Folder>
       <Folder Name="js" TargetFolderName="js">
-        <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.js" OpenInEditor="true">main.js</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$_TemporaryKey.pfx">BlankTemplate_TemporaryKey.pfx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>

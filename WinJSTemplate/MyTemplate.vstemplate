@@ -27,7 +27,7 @@
         <ProjectItem ReplaceParameters="false" TargetFileName="storelogo.scale-100.png">storelogo.scale-100.png</ProjectItem>
       </Folder>
       <Folder Name="js" TargetFolderName="js">
-        <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.js" OpenInEditor="true">main.js</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="false" TargetFileName="lib\winjs-4.0.1\css\ui-light.css">ui-light.css</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="lib\winjs-4.0.1\css\ui-dark.css">ui-dark.css</ProjectItem>
