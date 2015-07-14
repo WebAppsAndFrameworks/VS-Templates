@@ -19,4 +19,4 @@ app.oncheckpoint = function (args) {
   // You might use the WinJS.Application.sessionState object, which is automatically saved and restored across suspension.
   // If you need to complete an asynchronous operation before your application is suspended, call args.setPromise().
 };
-app.start();
+app.start();
