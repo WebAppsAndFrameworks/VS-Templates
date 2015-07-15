@@ -31,19 +31,19 @@
       Id="App"
       StartPage="https://example.com">
 
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Type="include" WindowsRuntimeAccess="all" Match="https://example.com" />
+      </uap:ApplicationContentUriRules>
+
       <uap:VisualElements
         DisplayName="$projectname$"
         Description="$projectname$"
         BackgroundColor="#464646"
         Square150x150Logo="images\Logo.png"
         Square44x44Logo="images\SmallLogo.png">
-
         <uap:SplashScreen Image="images\splashscreen.png" />
-
       </uap:VisualElements>
-      <uap:ApplicationContentUriRules>
-        <uap:Rule Type="include" WindowsRuntimeAccess="all" Match="https://example.com" />
-      </uap:ApplicationContentUriRules>
+
     </Application>
   </Applications>
 
