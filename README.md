@@ -3,7 +3,6 @@
 ## Contents
 - [BlankTemplate](#BlankTemplate)
 - [HostedTemplate](#HostedTemplate)
-- [LifecycleTemplate](#LifecycleTemplate)
 - [WinJSTemplate](#WinJSTemplate)
 
 <a name="BlankTemplate" />
@@ -43,9 +42,12 @@ I've also removed the `IIFE`. A developer who knows what they are can easily add
 unnecessary confusion for a newer developer.
 
 ### CSS
-The CSS file is essentially also blank. It just contains a body selector.
+The CSS file is essentially also blank. It just contains a body selector with the ability to uncomment out a line to enable scrolling and zooming in a WWA.
 ```CSS
 body {
+  /* Uncomment this to enable scrolling and zooming
+  touch-action: manipulation;
+  */
 }
 ```
 I am considering having this file completely blank and renaming it to `style.css`.
@@ -80,18 +82,9 @@ type of tutorial or documentation for Hosted Apps.
 I haven't gotten around to adding these, but it would be nice to include the `msapp-error` files. This
 would be another differentiating point from normal Packaged Apps.
 
-<a name="LifecycleTemplate" />
-## LifeCycleTemplate
-This is a more experimental template. The old WinJS template included stuff from the `AppModel` that
-could be potentially useful.
-
-That being said, I'm still on the fence as to whether or not it's useful enough to be it's own template.
-
-Currently the template is still under construction, and not particularly functional.
-
 <a name="WinJSTemplate" />
 ## WinJS Template
-I ended up creating an extremely simple WinJS Template. 
+The WinJS template is mostly the same as the old default template. I've added some additional code to make it clearer to the developer where additional code should be added.
 
 ### JS
 It seems like the whoever came up with the original WinJS templates seems to really like wrapping their
