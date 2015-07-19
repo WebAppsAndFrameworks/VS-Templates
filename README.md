@@ -75,12 +75,10 @@ and ACURs:
 </uap:ApplicationContentUriRules>
 ```
 
+The project also contains `msapp-error` pages.
+
 Something I'd like to potentially try out would be potentially having the `StartPage` point to some
 type of tutorial or documentation for Hosted Apps.
-
-### Error Page
-I haven't gotten around to adding these, but it would be nice to include the `msapp-error` files. This
-would be another differentiating point from normal Packaged Apps.
 
 <a name="WinJSTemplate" />
 ## WinJS Template
