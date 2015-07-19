@@ -25,6 +25,9 @@
       </Folder>
       <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$_TemporaryKey.pfx">HostedTemplate_TemporaryKey.pfx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="package.appxmanifest" OpenInEditor="true">package.appxmanifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="msapp-error.js">msapp-error.js</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="msapp-error.css">msapp-error.css</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="msapp-error.html">msapp-error.html</ProjectItem>
     </Project>
   </TemplateContent>
   <WizardExtension>
