@@ -2,6 +2,7 @@
 
 ## Contents
 - [BlankTemplate](#BlankTemplate)
+- [BlankTemplate (Web Context)](#BlankTemplateWeb)
 - [HostedTemplate](#HostedTemplate)
 - [WinJSTemplate](#WinJSTemplate)
 
@@ -51,6 +52,10 @@ body {
 }
 ```
 I am considering having this file completely blank and renaming it to `style.css`.
+
+<a name="BlankTemplateWeb" />
+## BlankTemplate (Web Context)
+This is the same as the above, except with `ms-appx-web:///`
 
 <a name="HostedTemplate" />
 ## HostedTemplate
