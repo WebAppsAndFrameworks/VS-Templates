@@ -31,6 +31,10 @@
       Id="App"
       StartPage="ms-appx-web:///index.html">
 
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Type="include" WindowsRuntimeAccess="all" Match="ms-appx-web:///index.html" />
+      </uap:ApplicationContentUriRules>
+
       <uap:VisualElements
         DisplayName="$projectname$"
         Description="$projectname$"
