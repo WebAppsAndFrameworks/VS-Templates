@@ -10,7 +10,7 @@
     Version="1.0.0.0"
     Publisher="$XmlEscapedPublisherDistinguishedName$" />
 
-  <mp:PhoneIdentity PhoneProductId="$guid1$" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="$guid1$" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
 
   <Properties>
     <DisplayName>$projectname$</DisplayName>

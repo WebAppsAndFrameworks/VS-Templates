@@ -10,7 +10,7 @@
     Version="1.0.0.0"
     Publisher="$XmlEscapedPublisherDistinguishedName$" />
 
-  <mp:PhoneIdentity PhoneProductId="$guid1$" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="$guid1$" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
 
   <Properties>
     <DisplayName>$projectname$</DisplayName>
@@ -42,6 +42,7 @@
         Square150x150Logo="images\Square150x150Logo.png"
         Square44x44Logo="images\Square44x44Logo.png">
 
+        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" />
         <uap:SplashScreen Image="images\splashscreen.png" />
 
       </uap:VisualElements>
