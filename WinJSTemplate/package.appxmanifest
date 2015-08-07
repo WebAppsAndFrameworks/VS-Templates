@@ -34,9 +34,9 @@
       <uap:VisualElements
         DisplayName="$projectname$"
         Description="$projectname$"
-        BackgroundColor="#464646"
-        Square150x150Logo="images\Logo.png"
-        Square44x44Logo="images\SmallLogo.png">
+        BackgroundColor="transparent"
+        Square150x150Logo="images\Square150x150Logo.png"
+        Square44x44Logo="images\Square44x44Logo.png">
 
         <uap:SplashScreen Image="images\splashscreen.png" />
 
