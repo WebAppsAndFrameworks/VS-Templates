@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Blank App (Universal Windows)</Name>
-    <Description>A project for a Windows Universal app that has no predefined controls or layout. Enforces Content Security Policy (CSP). Doesn't allow downloading remote script or inline script. Has direct access to all Universal Windows APIs.</Description>
+    <Description>A project for a Universal Windows app that has no predefined controls or layout. Enforces Content Security Policy (CSP). Doesn't allow downloading remote script or inline script. Has direct access to all Universal Windows APIs.</Description>
     <ProjectType>JavaScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>

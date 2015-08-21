@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>WinJS App (Universal Windows)</Name>
-    <Description>A project for a Windows Universal app using WinJS.</Description>
+    <Description>A project for a Universal Windows app using WinJS.</Description>
     <ProjectType>JavaScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
