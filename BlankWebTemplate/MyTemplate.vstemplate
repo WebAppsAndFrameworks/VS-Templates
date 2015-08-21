@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>BlankTemplate (Web Context)</Name>
-    <Description>A project for a Windows Universal app that has no predefined controls or layout. Handles local content as if it were from the web.</Description>
+    <Name>Blank App - Web Context (Universal Windows)</Name>
+    <Description>Handles local content as if it were from the web. No default Content Security Policy (CSP). Allows for remote and inline scripts. To access Universal Windows APIs, URIs must be declared in the Application Content URI Rules.</Description>
     <ProjectType>JavaScript</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>BlankTemplate</DefaultName>
+    <DefaultName>App</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
