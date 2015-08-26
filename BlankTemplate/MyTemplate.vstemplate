@@ -3,16 +3,17 @@
   <TemplateData>
     <Name>Blank App (Universal Windows)</Name>
     <Description>A project for a Universal Windows app that has no predefined controls or layout. Enforces Content Security Policy (CSP). Doesn't allow downloading remote script or inline script. Has direct access to all Universal Windows APIs.</Description>
+    <Icon>__TemplateIcon.ico</Icon>
     <ProjectType>JavaScript</ProjectType>
-    <ProjectSubType>
-    </ProjectSubType>
+    <TemplateID>Microsoft.JavaScript.BlankWJ_8_2</TemplateID>
     <SortOrder>10</SortOrder>
-    <CreateNewFolder>true</CreateNewFolder>
+    <CreateNewFolder>false</CreateNewFolder>
     <DefaultName>App</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
-    <LocationField>Enabled</LocationField>
-    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>__TemplateIcon.ico</Icon>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <TargetPlatformName>Windows</TargetPlatformName>
+    <RequiredPlatformVersion>6.1.0</RequiredPlatformVersion>
     <PreviewImage>__PreviewImage.png</PreviewImage>
   </TemplateData>
   <TemplateContent>
@@ -40,5 +41,9 @@
   <WizardExtension>
   <Assembly>Microsoft.VisualStudio.WinRT.TemplateWizards, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
   <FullClassName>Microsoft.VisualStudio.WinRT.TemplateWizards.CreateProjectCertificate.Wizard</FullClassName>
+  </WizardExtension>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.Universal.TemplateWizards, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>Microsoft.VisualStudio.Universal.TemplateWizards.PlatformVersion.Wizard</FullClassName>
   </WizardExtension>
 </VSTemplate>
