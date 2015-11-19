@@ -1,4 +1,5 @@
 # JavaScript Templates for Visual Studio
+The templates are also available as a VSIX in the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/49cdc7d0-95e7-48dd-8a6a-141cb66e726e)
 
 ## Contents
 - [BlankTemplate](#BlankTemplate)
