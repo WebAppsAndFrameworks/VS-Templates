@@ -87,7 +87,7 @@ type of tutorial or documentation for Hosted Apps.
 
 <a name="WinJSTemplate" />
 ## WinJS Template
-The WinJS template is mostly the same as the old default template. I've added some additional comments to make it clearer to the developer where additional code should be added.
+The WinJS template is mostly the same as the old default template. We want to make sure developers understand that it is not necessary to use WinJS in order to develop a JavaScript app on Windows.
 
 ### HTML
 The `index.html` file has been updated to include the `win-type-body` class on the `<body>` tag. This was one of the breaking changes from `WinJS`.
