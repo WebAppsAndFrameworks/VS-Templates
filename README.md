@@ -30,7 +30,7 @@ The HTML file is essentially a plain HTML document:
 ```
 
 ### JS
-I opted to keep the JavScript file completely empty. It just contains a comment
+The JavScript file is completely empty. It just contains a comment
 ```JavaScript
 // Your code here!
 ```
@@ -87,17 +87,7 @@ type of tutorial or documentation for Hosted Apps.
 
 <a name="WinJSTemplate" />
 ## WinJS Template
-The WinJS template is mostly the same as the old default template. I've added some additional code to make it clearer to the developer where additional code should be added.
-
-### JS
-It seems like the whoever came up with the original WinJS templates seems to really like wrapping their
-code in `IIFE`'s. While they are good to have, that does not inherently mean they should be included in a template.
-```JavaScript
-WinJS.UI.processAll().then(function() {
-  //Your code here
-});
-```
-Having the function being passed into the WinJS promise already isolates the scope sufficiently, so there isn't a good reason to wrap it into another `IIFE`. In fact, it might be a good idea to remove it from the [WinJS Generator](https://github.com/winjs/generator-winjs) as well.
+The WinJS template is mostly the same as the old default template. I've added some additional comments to make it clearer to the developer where additional code should be added.
 
 ### HTML
 The `index.html` file has been updated to include the `win-type-body` class on the `<body>` tag. This was one of the breaking changes from `WinJS`.
